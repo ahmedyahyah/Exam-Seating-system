@@ -30,18 +30,33 @@ The Exam Seating System is a web-based application designed to automate and mana
 
 ## Getting Started
 
+### Prerequisites
+
+- [XAMPP](https://www.apachefriends.org/index.html) installed for local server environment.
+
+### Setup & Running
+
 1. Clone the repository:
    ```
    git clone https://github.com/ahmedyahyah/Exam-Seating-system.git
    ```
-2. Open `Web engineering project/index.html` in your browser.
-3. (Optionally) Import students via the provided CSV sample on the students page.
+
+2. Move the project folder (especially `Web engineering project`) to the `htdocs` directory in your XAMPP installation.
+
+3. Start Apache (and optionally MySQL, if you plan backend integration) from the XAMPP Control Panel.
+
+4. Open your browser and go to:
+   ```
+   http://localhost/Web%20engineering%20project/index.html
+   ```
+5. (Optionally) Import students via the provided CSV sample on the students page.
 
 ## Technologies Used
 
 - HTML, CSS, JavaScript (front-end)
 - Additional scripts or frameworks can be added in the `/scripts` folder.
 - Designed for extensibility with REST API endpoints in `/api`.
+- XAMPP for local web server hosting.
 
 ## Example
 
